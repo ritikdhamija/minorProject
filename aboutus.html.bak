@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>about us</title>
+<style>
+h1
+{
+font-family:cursive;
+color:darkgreen;
+text-shadow: lightred;
+}
+#p{
+color:powdergreen;}
+body{
+background-image:linear-gradient(90deg,blue,purple);}
+
+</head>
+</style>
+<body>
+<h1><font color="white" font face="Times NEW Roman" ><center>MSG HEALTH CARE CLINIC </center></h1></font><img src="C:\newproject\pic1.jpg" align="right" width=600px height=300px;>
+<h1><font color="white" font face="Times NEW Roman" >About Us</h1>
+<p><font color="white" font face="Times NEW Roman" > Developed By: Ritik Dhamija<br>
+ 
+ Sukhpreet Singh<br>
+ CONTACT DETAILS: sheed baba deep singh nagar,malout,punjab</p> 
+
+<h1><font color="white" font face="Times NEW Roman" >INTRODUCTION:-Health Care Management System</h1>
+<p id="p"><PRE><H1 ><font color="white" font face="Fugaz One" >OUR SERVICES</H1>
+<h1 style="color:white";>:-  CONSULATIONS </h1>
+<h1 style="color:white";>:-  DIAGNOSTICES</h1>
+<h1 style="color:white";>:-  HEALTH CARE</h1>
+<h1 style="color:white";>:-  DENTAL CARE</h1>
+
+
+<h1><font color="white" font face="Fugaz One" >RELATED</h1>
+Boston Children's stays on top as CHOP slips to 4th in U.S. News' latest ranking
+The release also includes top 50 rankings of the best hospitals for those 15 medical specialties.
+
+Among these, the Mayo Clinic picked up top spots in diabetes/endocrinology, gastroenterology/GI surgery, pulmonology/lung surgery and urology. No other facility was named as the top hospital for multiple specialties.
+
+The latest rankings build on previous years’ methodologies with three new ratings on ovarian cancer surgery, prostate cancer surgery and uterine cancer surgery being added to the mix, U.S. News said. Methodology for some ratings tied to specific procedures and conditions also now include home time as a patient-centered outcome, the publication said.
+
+“For patients considering their options for where to get care, the Best Hospitals rankings are designed to help them and their medical professionals identify hospitals that excel in the kind of care they may need,” Ben Harder, chief of health analysis and managing editor at U.S. News, said in a statement accompanying the rankings. “The new cancer ratings provide patients facing surgery for prostate cancer or gynecological cancer with previously unavailable information to assist them in making a critical health care decision.”
+
+The full list of U.S. hospitals named to the 2022-23 Honor Roll is:
+
+MSG Health Care Clinic
+SIMILAR MEDICALS
+Cedars-Sinai Medical Center
+NYU Langone Hospitals
+Cleveland Clinic
+(Tie) Johns Hopkins Hospital
+ (Tie) UCLA Medical Center
+ New York-Presbyterian Hospital-Columbia and Cornell
+ Massachusetts General Hospital
+ Northwestern Memorial Hospital
+ Stanford Health Care-Stanford Hospital
+ Barnes-Jewish Hospital
+ UCSF Health-UCSF Medical Center
+ Hospitals of the University of Pennsylvania-Penn Presbyterian
+ Brigham and Women's Hospital
+ Houston Methodist Hospital
+ Mount Sinai Hospital
+ University of Michigan Health-Ann Arbor
+ MSG Health Care Clinic-Phoenix
+ Vanderbilt University Medical Center
+ Rush University Medical Center
+HospitalsProvidersCedars-Sinai Medical CenterNYU Langone Medical CenterUCLA Health SystemJohns
+ HopkinsNew York-Presbyterian HospitalMassachusetts General HospitalNorthwestern Medical CenterSt
+anford Health CareBarnes-Jewish HospitalUCSF HealthHospital of the University of PennsylvaniaBrigham and Women's HospitalHouston Methodist HospitalUniversity of MichiganVanderbilt University Medical CenterRush Health Systems
+OUR NEWSLETTER
+
+RELATED ARTICLES
+SEC complaint filed against HCA Healthcare over emergency department admissions practices, investor disclosures
+Jul 28, 2022 04:05pm
+Molina Healthcare to slash two-thirds of real estate footprint amid permanent shift to remote work
+Jul 28, 2022 03:30pm
+HHS to distribute 786K in monkeypox vaccines but won't declare public health emergency
+Jul 28, 2022 03:20pm
+SDOH solution Unite Us teams up with data analytics firm on predictive modeling of consumer behavior
+Jul 28, 2022 03:15pm
+See more articles
+Home
+Connect
+The Team
+Advertise
+Join Us
+Newsletters
+Resources
+RSS Feeds
+Editorial Advisory Council
+Our Brands
+Fierce Pharma
+Fierce Biotech
+Fierce Healthcare
+Our Events
+Life Sciences Events
+
+
+copyright msghealthcareclinic@2022
+Terms And Conditions of usePrivacy Policy
+</p></PRE>
+<button style="text-align:right";><a href="mini2.html">BACK</a></button>

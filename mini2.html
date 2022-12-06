@@ -1,0 +1,372 @@
+<html>
+<head>
+<title>Clinic Management System </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<style>
+#p
+{
+width:300px;
+height:200px;
+align:center;
+}
+#i
+{
+text-align:center;
+margin:0px 200px 0px 200px;
+color:white;
+font-size:50px;
+font-family:Rockwell Extra Bold;
+background-image:linear-gradient(90deg,blue,purple);
+}
+#tb
+{
+background-image:linear-gradient(0deg,blue,purple);
+}
+
+*{
+text-decoration:none;
+}
+nav{
+background-color:aqua;
+height:40px;
+}
+#n
+{text-decoration: none;
+box-color:pink;
+
+margin:0px 10px 0px 10px;}
+#t
+}
+font-family:cursive;
+background-color:blue;
+text-align:center;
+text-shadow:2px 2px white;
+color:blue;
+}
+#v{
+background-color:blue;
+}
+#rows{
+background:powderblue;
+height:350px;
+border-right-width:15px;
+border-left-width:15px;
+}
+#rows{
+border:2px dotted #73ad21;
+backgroud:lightgreen;
+}
+#cols{
+border:2px dotted blue;
+
+}
+#k{
+width:700px;
+height:400px;
+}
+
+#appoint{
+width:300px;
+height:200px;}
+#app{
+width:150px;
+height:200px;
+box-shadow:black;
+}
+#app:hover{
+width:180px;
+height300px;
+box-shadow:black;}
+h2{
+text-align:center;
+color:white;
+}
+#adver
+{
+width:350px;
+height:100px;}
+button{
+margin:5px 2px 10px 2px;}
+.row{
+background-color:skyblue;
+}
+.container{
+background-color:#4863A0;}
+#input{
+background-color:lightgray;}
+#table{
+background-color:#87AFC7;
+border-radius:2px;}
+#h3{
+color:white;
+text-shadow:white;}
+#tble{
+background-color:#007FFF;
+border-radius:2px;}
+#msg{
+
+height:135px;
+width:300px;}
+
+#body{
+height:50px;
+display:flex;
+background-image:linear-gradient(90deg,purple,blue);
+padding-left:10px;
+padding-top:5px;
+font-size:20px;
+
+
+}
+.menu ul li a:hover{
+color:yellow;
+
+}
+.hover-line::after{
+content:'';
+display:block;
+text-decoration:none;
+width:0%;
+height:2px;
+background-color:yellow;
+transition:width .3s;
+
+}
+.hover-line:hover:after{
+width:100%;
+background-color:yellow;
+transition:width .3s;
+}
+
+#ff{
+background-color:white;}
+
+#end{
+background-image:url(back.jpeg);
+background-size:cover;}
+li
+{
+padding-left:10px;
+color:white;
+
+
+</style>
+</head>
+<body>
+<table id="tb">
+<tr>
+<td><img src="C:\newproject\home.webp" id="p">
+<td><h1 id="i">MSG HEALTH CARE CLINIC</h1></td>
+<td><img src="C:\newproject\home.webp" id="p"></td>
+</tr>
+</table>
+<div class="menu">
+<ul id="body" type="none">
+<li><a href="mini2.html"class="hover-line" style="color:white";>HOME</a></li>
+<li><a href="aboutus.html" class="hover-line" style="color:white";>ABOUT US</a></li>
+<li><a href="#j" class="hover-line" style="color:white";>BOOK APPOINTMENT</a></p></li>
+<li><a href="#our" class="hover-line" style="color:white";>OUR SERVICES</a></li>
+<li><a href="logout.html" id="log" class="hover-line" style="color:white";>LOG IN</a></li>
+<li><a href="#contact"  class="hover-line" style="color:white";>CONTACT US</a></li>
+
+
+</ul></div>
+<br>
+<div class="row">
+<div class="col-6" id="ff">
+<img src="C:\newproject\docter.jpg" id="k"></div>
+<div class="col-6" id="ff" style="background-image:url(back.jpeg)";>
+<h2><font color="BLACK" FONT FACE="Fugaz One">working hours</h2><center></font>
+<table border=1 cellpadding=20>
+<tr>
+<th>Medical tests</th>
+<th>Timings</th>
+</tr>
+<tr>
+<td cellpadding=4>Consulations</td>
+<td>8:00am-9:00am</td>
+</tr>
+<tr>
+<td>diagnostics </td>
+<td>10:00am-12:00am</td>
+</tr>
+<tr>
+<td>health care</td>
+<td>2:00pm-4:00pm</td>
+</tr>
+<tr>
+<td>dental care</td>
+<td>4:30pm-6:30pm</td>
+</tr>
+</table>
+<h2><font color="BLACK" FONT FACE="Fugaz One"> 24*7(open)</h2><center></font>
+</center>
+</div>
+</div>
+
+<hr>
+<h2 style="background-color:purple";>Healthcare Management System</h2> 
+<div class="container">
+<div class="row" id="rows">
+<div class="col-4">
+<h3 id="h1">Manage Appointment</h3>
+<img src="C:\newproject\appoint.webp" id="appoint">
+<p ><i><font face="lemon">Appointment schedulers are business tools that allow clients to book, reschedule, 
+and cancel appointments through a web interface</font></i></p></div>
+<div class="col-4">
+<h3>Manage Patients</h3>
+<img src="C:\newproject\patient.jfif" id="appoint">
+<p><font face="lemon"><i>patient managemnent is the set of activities that healthcare practices
+use to manage and deliver on patients rising expectations</i></font></p></div>
+<div class="col-4"><h3>advertisement</h3>
+<img src="C:\newproject\adver1.jpg" id="adver">
+<img src="C:\newproject\adver.jpg" id="adver">
+<img src="C:\newproject\adver2.webp" id="adver">
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h2 style="background-color:purple"; id="our"><a href="mini2.html" id="services" ><font color="white" style="text-decoration:none";>OUR SERVICES</a></h2></font> 
+<div class="container">
+<div class="row" id="cols">
+<div class="col-3"><h3>consulations</h3>
+<img src="C:\newproject\consu.jpg" id="app">
+<p><font face="Cinzel Black" border-shadow="red">During the consulations,
+the docters conducts a through Medical
+review by asking questions.</font></p></div>
+<div class="col-3"><h3>diagnostics</h3>
+<img src="C:\newproject\diag.jpg" id="app"><p><font face="Cinzel Black">DA diagnostics tests is a test used to
+ identify a condition or its cause
+it is used to diagnosis.</p></font> </div>
+<div class="col-3"><h3>health checks</h3>
+<img src="C:\newproject\health.jfif" id="app">
+<p><font face="Cinzel Black" border-shadow="red">Health care or healthcare is the improvement of health via
+ the prevention, diagnosis, treatment</p>
+</font>
+</div>
+<div class="col-3"><h3>dental care</h3>
+<img src="C:\newproject\dental.jpg" id="app">
+<p><font face="Cinzel Black" border-shadow="red">
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Dental or oral health is concerned with your teeth, gums and mouth.</font></p>
+</div><a href="mini2.html" style="color:blue";>back</button>
+</div>
+</div>
+<hr>
+<h2 style="background-color:green";  id="j"><a href="mini2.html" ><font color="white" >BOOK APPOINTMENT</h2></a></font>
+<div class="container" id="div">
+<div class="row">
+<div class="col-6" style="BACKGROUND-COLOR:#4863A0";>
+<h3 id="h3">Make an Appointment</h3>
+<table BORDER=1 id="table" cellpadding=10 >
+<tr>
+<th><form><label>NAME:</label>
+<input type="text box" placeholder="enter name"></th>
+
+<th><label>FATHER'S NAME:</label>
+<input type="text box"placeholder="enter name"></th>
+</tr>
+<tr><th><label>D.O.B:</label>
+<input type="date"></th>
+<th><label>PHONE NUMBER:</label>
+<input type="number" placeholder="enter number"></th>
+</tr>
+<tr>
+<th style="width:100px";><label>PROFESSIONAL TITLE</label>
+<select style="width:200px";>
+<option>select one</option>
+<option>MD</option>
+<option>IV</option>
+<option>DMD</option>
+<option>DO</option>
+<option>Jr</option></select></th>
+<th><label>GENDER</label>
+<select style="width:100px";>
+<option>Male</option>
+<option>female</option>
+<option>Other</option>
+</select></th>
+</tr>
+<tr>
+<th><label>MARITAL STATUS:</label>
+<select style="width:100px";>
+<option>select one</option>
+<option>Single</option>
+<option>Married</option>
+<option>Divorced</option>
+<option>Widowed</option>
+<option>Other</option>
+</select></th>
+<th><label>COUNTRY</label>
+<select style="width:100px";>
+<option>select one</option>
+<option>AUSTRALLIA</option>
+<option>CANADA</option>
+<option>INDIA</option>
+<option>SRI LANKA</option>
+</select></th>
+
+</tr>
+<tr>
+<th>
+<label>ADDRESS</label>
+<input type="text box" style="height:50px";></th>
+<th><label>CITY</label><br>
+<input type="text box" placeholder="enter city"></th></tr>
+<tr>
+<th><label>STATE</label>
+<input type="text box"></th>
+<th><label>EMAIL</label><br>
+<input type="text box" style="width:200px"; placeholder="enter email"></th></tr>
+<th><center><button id="button">SUBMIT</label></center>
+</table>
+</div>
+<div class="col-6" id="div" style="background-color:#4863A0";><h3><font color="white">feedback form</font></h3>
+<table id="tble" cellpadding=10>
+<tr>
+<th><label>FIRST NAME:</label>
+<input type="text box" placeholder="enter name"></th>
+<th><label>LAST NAME:</label>
+<input type="text box" placeholder="enter name"></th></tr>
+<tr>
+<th><label>FATHER'S NAME</label>
+<input type="text box" placeholder="enter name"></th>
+<th><label>MOTHER'S NAME</label>
+<input type="text box" placeholder="enter name"></th>
+</tr>
+<tr>
+<th><label>EMAIL</label><BR>
+<input type="text box" placeholder="enter email" style="width:190px"; ></th>
+<th><label>PHONE NUMBER</label>
+<input type="text box" placeholder="enter number"></th>
+</tr>
+<tr><th><label>CITY</label><BR>
+<input type="text box" placeholder="enter city"></th>
+<th><label>STATE</label>
+<input type="text box"></th></tr>
+<tr>
+<th><label>DESCRIBE YOUR FEEDBACK</label>
+<input type="text box" id="msg" style="width:250px;">
+<tr>
+<th><button><center>SUBMIT</button></center></table></th></tr>
+</div>
+</div><button style="background-color:#4863A0";><a href="mini2.html" style="color:white";>back</button>
+</div>
+<hr>
+<h3 style="background-image:linear-gradient(to left,green,purple);"; id="contact"><font color="white" font face="Times NEW Roman" ><center>CONTACT US</font></h3></center>
+<div class="row" id="end" style="background-image:url(back.jpeg)" >
+<div class="maindiv"><h2><font color="black" font face="Modern No. 20"><a href="mini2.html">MSG HEALTH CARE CLINIC</h2></font>
+<h3><font color="black" font face="Modern No. 20">Phone number : 62399-63390</h3></font>
+<h4><font color="black" font face="Modern No. 20">Email : msgclinic786@gmail.com</h4></font>
+<h5><font color="black" font face="Modern No. 20">Address : sheed baba deep singh nagar ,ward no.7,malout,punjab</h5></font><br><br>
+<h1><font color="black" font face="Modern No. 20">OTHER CONTACT:</h2></font>
+<h4><font color="black" font face="Modern No. 20">Phone number : 97793-62044</h2></font>
+<h4><font color="black" font face=""><i class="ni ni air-baloon">Email :Ritikdhamija@gmail.com
+sukhpreettsingh@gmail.com</i></h4></font><br>
+<h3><font color="black" font face=""><i class="ni ni air-baloon">OPEN:Mon-Sat(9:00am-9:00pm)</i></h3></font><button ><a href="mini2.html" style="color:black";>back</button>
+</div>
+</div>
+<h4 style="background-color:black";><font color="lightgray"  font face="Goudy Stout"><marquee>copyright msghealthcareclinic@2022</h4></font></marquee>
+</body>
+</html>
